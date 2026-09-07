@@ -9,6 +9,7 @@
 // ============================================================
 import { useState } from "react";
 import Week01App from "./Week01App";
+import Week02App from "./Week02App";
 
 const T = {
   ko: {
@@ -24,6 +25,13 @@ const T = {
         subtitle: "양자역학의 탄생",
         topics: ["흑체복사·자외선 파탄", "Planck 양자화", "최소작용·Lagrangian·Hamiltonian", "Hamilton-Jacobi", "파동방정식·Helmholtz 모드", "Schrödinger 고유값 문제"],
         color: "#f59e0b",
+      },
+      {
+        id: 2,
+        title: "Week 2",
+        subtitle: "파동역학과 행렬역학",
+        topics: ["자유입자·파속·불확정성", "퍼텐셜 계단·터널링 (FET·STM)", "상자 속 입자·측정 공준", "시간전개·중첩상태", "3D 상자·양자점", "행렬역학·[q̂,p̂]=iℏ"],
+        color: "#38bdf8",
       },
     ],
   },
@@ -41,12 +49,20 @@ const T = {
         topics: ["Blackbody & UV catastrophe", "Planck quantization", "Least action · Lagrangian · Hamiltonian", "Hamilton-Jacobi", "Wave equation · Helmholtz modes", "Schrödinger as eigenvalue problem"],
         color: "#f59e0b",
       },
+      {
+        id: 2,
+        title: "Week 2",
+        subtitle: "Wave Mechanics & Matrix Mechanics",
+        topics: ["Free particle · packets · uncertainty", "Step potential · tunneling (FET·STM)", "Particle in a box · measurement", "Time evolution · superpositions", "3D box · quantum dots", "Matrix mechanics · [q̂,p̂]=iℏ"],
+        color: "#38bdf8",
+      },
     ],
   },
 };
 
 const comps = {
   1: Week01App,
+  2: Week02App,
 };
 
 // language persistence (safe if storage is unavailable)

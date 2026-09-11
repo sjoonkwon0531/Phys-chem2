@@ -10,6 +10,7 @@
 import { useState } from "react";
 import Week01App from "./Week01App";
 import Week02App from "./Week02App";
+import Week03App from "./Week03App";
 
 const T = {
   ko: {
@@ -32,6 +33,13 @@ const T = {
         subtitle: "파동역학과 행렬역학",
         topics: ["자유입자·파속·불확정성", "퍼텐셜 계단·터널링 (FET·STM)", "상자 속 입자·측정 공준", "시간전개·중첩상태", "3D 상자·양자점", "행렬역학·[q̂,p̂]=iℏ"],
         color: "#38bdf8",
+      },
+      {
+        id: 3,
+        title: "Week 3",
+        subtitle: "조화진동자와 각운동량",
+        topics: ["Hermite 다항식·영점에너지", "생성·소멸 연산자 [â,â†]=1", "각운동량·양립 관측량", "사다리 연산자 L±·벡터 모델", "구면조화함수·p/d 궤도", "수소 원자·양자수 n,l,m,s"],
+        color: "#a78bfa",
       },
     ],
   },
@@ -56,6 +64,13 @@ const T = {
         topics: ["Free particle · packets · uncertainty", "Step potential · tunneling (FET·STM)", "Particle in a box · measurement", "Time evolution · superpositions", "3D box · quantum dots", "Matrix mechanics · [q̂,p̂]=iℏ"],
         color: "#38bdf8",
       },
+      {
+        id: 3,
+        title: "Week 3",
+        subtitle: "Harmonic Oscillator & Angular Momentum",
+        topics: ["Hermite polynomials · zero-point energy", "Creation/annihilation [â,â†]=1", "Angular momentum · compatible observables", "Ladder operators L± · vector model", "Spherical harmonics · p/d orbitals", "Hydrogen atom · quantum numbers n,l,m,s"],
+        color: "#a78bfa",
+      },
     ],
   },
 };
@@ -63,6 +78,7 @@ const T = {
 const comps = {
   1: Week01App,
   2: Week02App,
+  3: Week03App,
 };
 
 // language persistence (safe if storage is unavailable)

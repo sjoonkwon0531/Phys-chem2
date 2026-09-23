@@ -11,6 +11,7 @@ import { useState } from "react";
 import Week01App from "./Week01App";
 import Week02App from "./Week02App";
 import Week03App from "./Week03App";
+import Week04App from "./Week04App";
 
 const T = {
   ko: {
@@ -40,6 +41,13 @@ const T = {
         subtitle: "조화진동자와 각운동량",
         topics: ["Hermite 다항식·영점에너지", "생성·소멸 연산자 [â,â†]=1", "각운동량·양립 관측량", "사다리 연산자 L±·벡터 모델", "구면조화함수·p/d 궤도", "수소 원자·양자수 n,l,m,s"],
         color: "#a78bfa",
+      },
+      {
+        id: 4,
+        title: "Week 4",
+        subtitle: "수소 원자, 스핀, 기체 수송현상",
+        topics: ["Bohr 준위·스펙트럼 계열", "축퇴 2n²·전자배치·주기율표", "스핀·Pauli 행렬·Stern-Gerlach", "Zeeman 효과·유니터리 연산자", "Maxwell-Boltzmann 분포·비열", "평균자유행로·D/κ/η·분출"],
+        color: "#34d399",
       },
     ],
   },
@@ -71,6 +79,13 @@ const T = {
         topics: ["Hermite polynomials · zero-point energy", "Creation/annihilation [â,â†]=1", "Angular momentum · compatible observables", "Ladder operators L± · vector model", "Spherical harmonics · p/d orbitals", "Hydrogen atom · quantum numbers n,l,m,s"],
         color: "#a78bfa",
       },
+      {
+        id: 4,
+        title: "Week 4",
+        subtitle: "Hydrogen Atom, Spin & Gas Transport",
+        topics: ["Bohr levels · spectral series", "Degeneracy 2n² · configurations · periodic table", "Spin · Pauli matrices · Stern-Gerlach", "Zeeman effect · unitary operators", "Maxwell-Boltzmann distribution · heat capacity", "Mean free path · D/κ/η · effusion"],
+        color: "#34d399",
+      },
     ],
   },
 };
@@ -79,6 +94,7 @@ const comps = {
   1: Week01App,
   2: Week02App,
   3: Week03App,
+  4: Week04App,
 };
 
 // language persistence (safe if storage is unavailable)

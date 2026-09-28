@@ -12,6 +12,7 @@ import Week01App from "./Week01App";
 import Week02App from "./Week02App";
 import Week03App from "./Week03App";
 import Week04App from "./Week04App";
+import Week05App from "./Week05App";
 
 const T = {
   ko: {
@@ -48,6 +49,13 @@ const T = {
         subtitle: "수소 원자, 스핀, 기체 수송현상",
         topics: ["Bohr 준위·스펙트럼 계열", "축퇴 2n²·전자배치·주기율표", "스핀·Pauli 행렬·Stern-Gerlach", "Zeeman 효과·유니터리 연산자", "Maxwell-Boltzmann 분포·비열", "평균자유행로·D/κ/η·분출"],
         color: "#34d399",
+      },
+      {
+        id: 5,
+        title: "Week 5",
+        subtitle: "분자간 힘과 액체",
+        topics: ["쌍극자·편극성·Debye 식", "Keesom·유도·London 분산력", "Lennard-Jones·라이브 MD·g(r)", "표면장력·Young-Laplace", "모세관·접촉각·젖음", "Kelvin 식·Ostwald 숙성·CMC"],
+        color: "#f472b6",
       },
     ],
   },
@@ -86,6 +94,13 @@ const T = {
         topics: ["Bohr levels · spectral series", "Degeneracy 2n² · configurations · periodic table", "Spin · Pauli matrices · Stern-Gerlach", "Zeeman effect · unitary operators", "Maxwell-Boltzmann distribution · heat capacity", "Mean free path · D/κ/η · effusion"],
         color: "#34d399",
       },
+      {
+        id: 5,
+        title: "Week 5",
+        subtitle: "Intermolecular Forces & Liquids",
+        topics: ["Dipoles · polarizability · Debye equation", "Keesom · induction · London dispersion", "Lennard-Jones · live MD · g(r)", "Surface tension · Young-Laplace", "Capillarity · contact angle · wetting", "Kelvin equation · Ostwald ripening · CMC"],
+        color: "#f472b6",
+      },
     ],
   },
 };
@@ -95,6 +110,7 @@ const comps = {
   2: Week02App,
   3: Week03App,
   4: Week04App,
+  5: Week05App,
 };
 
 // language persistence (safe if storage is unavailable)

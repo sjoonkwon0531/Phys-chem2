@@ -13,6 +13,7 @@ import Week02App from "./Week02App";
 import Week03App from "./Week03App";
 import Week04App from "./Week04App";
 import Week05App from "./Week05App";
+import Week06App from "./Week06App";
 
 const T = {
   ko: {
@@ -56,6 +57,13 @@ const T = {
         subtitle: "분자간 힘과 액체",
         topics: ["쌍극자·편극성·Debye 식", "Keesom·유도·London 분산력", "Lennard-Jones·라이브 MD·g(r)", "표면장력·Young-Laplace", "모세관·접촉각·젖음", "Kelvin 식·Ostwald 숙성·CMC"],
         color: "#f472b6",
+      },
+      {
+        id: 6,
+        title: "Week 6",
+        subtitle: "고분자·자기조립과 화학 반응속도론",
+        topics: ["평균 분자량 Mn·Mw·분산도", "랜덤 코일·엔트로피 탄성", "콜로이드·DLVO·미셀", "속도식·초기 속도법", "적분 속도식·반감기", "평형 접근·완화법·Arrhenius"],
+        color: "#a3e635",
       },
     ],
   },
@@ -101,6 +109,13 @@ const T = {
         topics: ["Dipoles · polarizability · Debye equation", "Keesom · induction · London dispersion", "Lennard-Jones · live MD · g(r)", "Surface tension · Young-Laplace", "Capillarity · contact angle · wetting", "Kelvin equation · Ostwald ripening · CMC"],
         color: "#f472b6",
       },
+      {
+        id: 6,
+        title: "Week 6",
+        subtitle: "Macromolecules, Self-Assembly & Chemical Kinetics",
+        topics: ["Molar-mass averages Mn · Mw · dispersity", "Random coils · entropic elasticity", "Colloids · DLVO · micelles", "Rate laws · initial rates", "Integrated rate laws · half-life", "Equilibrium · relaxation · Arrhenius"],
+        color: "#a3e635",
+      },
     ],
   },
 };
@@ -111,6 +126,7 @@ const comps = {
   3: Week03App,
   4: Week04App,
   5: Week05App,
+  6: Week06App,
 };
 
 // language persistence (safe if storage is unavailable)

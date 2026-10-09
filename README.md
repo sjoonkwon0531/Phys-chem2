@@ -17,6 +17,7 @@ Companion repo to [Fluid-Mechanics-ChE-Undergrad](https://github.com/sjoonkwon05
 | 4 | 수소 원자, 스핀, 기체 수송현상 (Hydrogen Atom, Spin & Gas Transport) | Bohr 사다리·방출 스펙트럼 실험실(색 재현), 축퇴 2n² 카운터, Aufbau 전자배치 빌더, Stern-Gerlach 순차측정 MC, Zeeman 갈라짐, 운동론 입자상자·Maxwell-Boltzmann 분포, 평균자유행로·수송계수, Knudsen 분출(Cs 8.7 kPa) |
 | 5 | 분자간 힘과 액체 (Intermolecular Forces & Liquids) | 쌍극자 벡터합성 실험실(다이클로로벤젠), Debye 플롯, van der Waals 계산기(Keesom·유도·London), 브라우저 라이브 2D Lennard-Jones MD + 실시간 g(r), Young-Laplace·모세관 시뮬레이터, 접촉각·Young 방정식, Kelvin 식·CMC |
 | 6 | 고분자·자기조립과 화학 반응속도론 (Macromolecules, Self-Assembly & Chemical Kinetics) | 두 사슬·Schulz–Flory 분자량 실험실, Zimm 그림, 랜덤 코일 시뮬레이터(Rg·끝–끝 거리), 엔트로피 탄성, DLVO 실험실(염·전하수·임계 응집 농도), 미셀 CMC 모형, 초기 속도법 차수 맞히기, 적분 속도식, 완화법(T-jump), Arrhenius·촉매 |
+| 복습 | 중간고사 복습 (Midterm Review, Weeks 1–6) | 주차 지도·자가 점검, 주차별 핵심 공식(검색·필터), 개념 퀴즈 24문항(즉시 채점·해설), 새 손계산 연습문제 13개(힌트·풀이), 2025 중간고사와 풀이, 상수표·자주 하는 실수, Python 검산 코드 |
 
 ## Run locally
 

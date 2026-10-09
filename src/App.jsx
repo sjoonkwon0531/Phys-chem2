@@ -14,6 +14,7 @@ import Week03App from "./Week03App";
 import Week04App from "./Week04App";
 import Week05App from "./Week05App";
 import Week06App from "./Week06App";
+import MidtermReviewApp from "./MidtermReviewApp";
 
 const T = {
   ko: {
@@ -64,6 +65,13 @@ const T = {
         subtitle: "고분자·자기조립과 화학 반응속도론",
         topics: ["평균 분자량 Mn·Mw·분산도", "랜덤 코일·엔트로피 탄성", "콜로이드·DLVO·미셀", "속도식·초기 속도법", "적분 속도식·반감기", "평형 접근·완화법·Arrhenius"],
         color: "#a3e635",
+      },
+      {
+        id: "mid",
+        title: "Midterm Review",
+        subtitle: "중간고사 복습 (1~6주차)",
+        topics: ["주차 지도·자가 점검", "핵심 공식", "개념 퀴즈 24문항", "새 연습문제 13개", "2025 중간고사·풀이", "상수표·자주 하는 실수"],
+        color: "#fb923c",
       },
     ],
   },
@@ -116,6 +124,13 @@ const T = {
         topics: ["Molar-mass averages Mn · Mw · dispersity", "Random coils · entropic elasticity", "Colloids · DLVO · micelles", "Rate laws · initial rates", "Integrated rate laws · half-life", "Equilibrium · relaxation · Arrhenius"],
         color: "#a3e635",
       },
+      {
+        id: "mid",
+        title: "Midterm Review",
+        subtitle: "Midterm Review (Weeks 1–6)",
+        topics: ["Week map · self-check", "Key formulas", "24-question concept quiz", "13 new practice problems", "2025 midterm · solutions", "Constants · common pitfalls"],
+        color: "#fb923c",
+      },
     ],
   },
 };
@@ -127,6 +142,7 @@ const comps = {
   4: Week04App,
   5: Week05App,
   6: Week06App,
+  mid: MidtermReviewApp,
 };
 
 // language persistence (safe if storage is unavailable)

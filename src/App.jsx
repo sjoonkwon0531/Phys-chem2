@@ -14,6 +14,7 @@ import Week03App from "./Week03App";
 import Week04App from "./Week04App";
 import Week05App from "./Week05App";
 import Week06App from "./Week06App";
+import Week09App from "./Week09App";
 import MidtermReviewApp from "./MidtermReviewApp";
 
 const T = {
@@ -73,6 +74,13 @@ const T = {
         topics: ["주차 지도·자가 점검", "핵심 공식", "개념 퀴즈 24문항", "새 연습문제 13개", "2025 중간고사·풀이", "상수표·자주 하는 실수"],
         color: "#fb923c",
       },
+      {
+        id: 9,
+        title: "Week 9",
+        subtitle: "반응 동역학: 충돌·확산·전이상태",
+        topics: ["충돌 이론·충돌 밀도", "입체 인자·작살 메커니즘", "RRK 모형", "확산 지배 반응·Smoluchowski", "물질수지 식(확산·대류·반응)", "Eyring 식·DLA 응집"],
+        color: "#2dd4bf",
+      },
     ],
   },
   en: {
@@ -131,6 +139,13 @@ const T = {
         topics: ["Week map · self-check", "Key formulas", "24-question concept quiz", "13 new practice problems", "2025 midterm · solutions", "Constants · common pitfalls"],
         color: "#fb923c",
       },
+      {
+        id: 9,
+        title: "Week 9",
+        subtitle: "Reaction Dynamics: Collisions, Diffusion, Transition States",
+        topics: ["Collision theory · collision density", "Steric factor · harpoon mechanism", "RRK model", "Diffusion control · Smoluchowski", "Material balance (diffusion · convection · reaction)", "Eyring equation · DLA aggregation"],
+        color: "#2dd4bf",
+      },
     ],
   },
 };
@@ -142,6 +157,7 @@ const comps = {
   4: Week04App,
   5: Week05App,
   6: Week06App,
+  9: Week09App,
   mid: MidtermReviewApp,
 };
 

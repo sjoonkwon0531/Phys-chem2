@@ -15,6 +15,7 @@ import Week04App from "./Week04App";
 import Week05App from "./Week05App";
 import Week06App from "./Week06App";
 import Week09App from "./Week09App";
+import Week10App from "./Week10App";
 import MidtermReviewApp from "./MidtermReviewApp";
 
 const T = {
@@ -81,6 +82,13 @@ const T = {
         topics: ["충돌 이론·충돌 밀도", "입체 인자·작살 메커니즘", "RRK 모형", "확산 지배 반응·Smoluchowski", "물질수지 식(확산·대류·반응)", "Eyring 식·DLA 응집"],
         color: "#2dd4bf",
       },
+      {
+        id: 10,
+        title: "Week 10",
+        subtitle: "통계역학과 상분리",
+        topics: ["W 세기·Boltzmann 분포", "분배 함수 → 열역학", "요동과 열용량", "앙상블·에르고딕성", "격자 혼합 모형·스피노달", "Cahn–Hilliard 동역학"],
+        color: "#818cf8",
+      },
     ],
   },
   en: {
@@ -146,6 +154,13 @@ const T = {
         topics: ["Collision theory · collision density", "Steric factor · harpoon mechanism", "RRK model", "Diffusion control · Smoluchowski", "Material balance (diffusion · convection · reaction)", "Eyring equation · DLA aggregation"],
         color: "#2dd4bf",
       },
+      {
+        id: 10,
+        title: "Week 10",
+        subtitle: "Statistical Mechanics & Phase Separation",
+        topics: ["Counting W · Boltzmann distribution", "Partition function → thermodynamics", "Fluctuations and heat capacity", "Ensembles · ergodicity", "Lattice mixing · spinodal", "Cahn–Hilliard dynamics"],
+        color: "#818cf8",
+      },
     ],
   },
 };
@@ -158,6 +173,7 @@ const comps = {
   5: Week05App,
   6: Week06App,
   9: Week09App,
+  10: Week10App,
   mid: MidtermReviewApp,
 };
 

@@ -19,6 +19,7 @@ Companion repo to [Fluid-Mechanics-ChE-Undergrad](https://github.com/sjoonkwon05
 | 6 | 고분자·자기조립과 화학 반응속도론 (Macromolecules, Self-Assembly & Chemical Kinetics) | 두 사슬·Schulz–Flory 분자량 실험실, Zimm 그림, 랜덤 코일 시뮬레이터(Rg·끝–끝 거리), 엔트로피 탄성, DLVO 실험실(염·전하수·임계 응집 농도), 미셀 CMC 모형, 초기 속도법 차수 맞히기, 적분 속도식, 완화법(T-jump), Arrhenius·촉매 |
 | 복습 | 중간고사 복습 (Midterm Review, Weeks 1–6) | 주차 지도·자가 점검, 주차별 핵심 공식(검색·필터), 개념 퀴즈 24문항(즉시 채점·해설), 새 손계산 연습문제 13개(힌트·풀이), 2025 중간고사와 풀이, 상수표·자주 하는 실수, Python 검산 코드 |
 | 9 | 반응 동역학: 충돌·확산·전이상태 (Reaction Dynamics: Collisions, Diffusion, Transition States) | 충돌 밀도 계산기(N₂ z = 7.0×10⁹ s⁻¹), Boltzmann 꼬리 시각화, 입체 인자 표·작살 메커니즘 계산기, RRK Monte Carlo, 만남 쌍 QSSA, Smoluchowski 프로필·k_d = 8RT/3η 용매 비교, 상대 좌표 확산 검증, 라이브 3D Brownian 포획 시뮬레이션, 물질수지 식(확산·대류·반응)과 유한차분 검산, 반응–확산 길이, 진동 분배 함수·Eyring 실험실, TST = 충돌 이론 검증, 라이브 DLA/RLA 성장과 프랙탈 차원, Smoluchowski 응집 |
+| 10 | 통계역학과 상분리 (Statistical Mechanics & Phase Separation) | Stirling 근사 계산기, 라이브 에너지 교환 게임(Boltzmann 분포·ln W 증가·βε 맞춤), Einstein 고체 정확한 세기, Lagrange 승수 유도, 2준위·조화 진동자 열역학(Schottky 봉우리), 요동 N^(−1/2)와 C_V = σ_E²/kT², 이원자 분자 분배 함수와 S°(N₂·O₂·CO·HCl·I₂, CODATA 비교), 앙상블 표, 대정준 Langmuir 흡착, 이상 기체 μ와 nΛ³, 원형/경기장 당구 에르고딕성, 혼합 자유 에너지·바이노달·스피노달 상평형도, 라이브 Kawasaki Monte Carlo(평균장 χ_c = 2 대 정확해 3.53), Cahn–Hilliard 선형 안정성, 라이브 CH/Allen–Cahn 128² 스펙트럼 시뮬레이션과 조대화 지수, 사례 연구 |
 
 ## Run locally
 

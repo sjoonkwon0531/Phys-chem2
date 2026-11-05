@@ -16,6 +16,7 @@ import Week05App from "./Week05App";
 import Week06App from "./Week06App";
 import Week09App from "./Week09App";
 import Week10App from "./Week10App";
+import Week11App from "./Week11App";
 import MidtermReviewApp from "./MidtermReviewApp";
 
 const T = {
@@ -89,6 +90,13 @@ const T = {
         topics: ["W 세기·Boltzmann 분포", "분배 함수 → 열역학", "요동과 열용량", "앙상블·에르고딕성", "격자 혼합 모형·스피노달", "Cahn–Hilliard 동역학"],
         color: "#818cf8",
       },
+      {
+        id: 11,
+        title: "Week 11",
+        subtitle: "반응 동역학과 결정 진동",
+        topics: ["분자선·편향 함수·무지개 산란", "퍼텐셜 에너지 면·LEPS 궤적", "Polanyi 규칙", "전자 전달·Marcus 역전 영역", "1D 사슬 분산·Brillouin 영역", "음향·광학 포논·열용량"],
+        color: "#fb923c",
+      },
     ],
   },
   en: {
@@ -161,6 +169,13 @@ const T = {
         topics: ["Counting W · Boltzmann distribution", "Partition function → thermodynamics", "Fluctuations and heat capacity", "Ensembles · ergodicity", "Lattice mixing · spinodal", "Cahn–Hilliard dynamics"],
         color: "#818cf8",
       },
+      {
+        id: 11,
+        title: "Week 11",
+        subtitle: "Reaction Dynamics & Lattice Vibrations",
+        topics: ["Molecular beams · deflection function · rainbow", "Potential energy surfaces · LEPS trajectories", "Polanyi rules", "Electron transfer · Marcus inverted region", "1D chain dispersion · Brillouin zone", "Acoustic & optical phonons · heat capacity"],
+        color: "#fb923c",
+      },
     ],
   },
 };
@@ -174,6 +189,7 @@ const comps = {
   6: Week06App,
   9: Week09App,
   10: Week10App,
+  11: Week11App,
   mid: MidtermReviewApp,
 };
 

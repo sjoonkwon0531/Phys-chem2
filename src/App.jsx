@@ -17,6 +17,7 @@ import Week06App from "./Week06App";
 import Week09App from "./Week09App";
 import Week10App from "./Week10App";
 import Week11App from "./Week11App";
+import Week12App from "./Week12App";
 import MidtermReviewApp from "./MidtermReviewApp";
 
 const T = {
@@ -97,6 +98,13 @@ const T = {
         topics: ["분자선·편향 함수·무지개 산란", "퍼텐셜 에너지 면·LEPS 궤적", "Polanyi 규칙", "전자 전달·Marcus 역전 영역", "1D 사슬 분산·Brillouin 영역", "음향·광학 포논·열용량"],
         color: "#fb923c",
       },
+      {
+        id: 12,
+        title: "Week 12",
+        subtitle: "고체의 열적 성질과 전자 띠",
+        topics: ["Planck 분포·포논 열용량", "Einstein vs Debye·T³ 법칙", "금속의 C = γT + AT³", "LCAO 강결합 띠·유효 질량", "띠 채움·금속과 절연체", "띠 간격·Peierls·반도체"],
+        color: "#f87171",
+      },
     ],
   },
   en: {
@@ -176,6 +184,13 @@ const T = {
         topics: ["Molecular beams · deflection function · rainbow", "Potential energy surfaces · LEPS trajectories", "Polanyi rules", "Electron transfer · Marcus inverted region", "1D chain dispersion · Brillouin zone", "Acoustic & optical phonons · heat capacity"],
         color: "#fb923c",
       },
+      {
+        id: 12,
+        title: "Week 12",
+        subtitle: "Thermal Properties of Solids & Electronic Bands",
+        topics: ["Planck distribution · phonon heat capacity", "Einstein vs Debye · T³ law", "Metals: C = γT + AT³", "LCAO tight binding · effective mass", "Band filling · metals vs insulators", "Band gaps · Peierls · semiconductors"],
+        color: "#f87171",
+      },
     ],
   },
 };
@@ -190,6 +205,7 @@ const comps = {
   9: Week09App,
   10: Week10App,
   11: Week11App,
+  12: Week12App,
   mid: MidtermReviewApp,
 };
 

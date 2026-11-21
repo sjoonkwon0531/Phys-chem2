@@ -18,6 +18,7 @@ import Week09App from "./Week09App";
 import Week10App from "./Week10App";
 import Week11App from "./Week11App";
 import Week12App from "./Week12App";
+import Week13App from "./Week13App";
 import MidtermReviewApp from "./MidtermReviewApp";
 
 const T = {
@@ -105,6 +106,13 @@ const T = {
         topics: ["Planck 분포·포논 열용량", "Einstein vs Debye·T³ 법칙", "금속의 C = γT + AT³", "LCAO 강결합 띠·유효 질량", "띠 채움·금속과 절연체", "띠 간격·Peierls·반도체"],
         color: "#f87171",
       },
+      {
+        id: 13,
+        title: "Week 13",
+        subtitle: "결정 구조, X선 회절과 역격자",
+        topics: ["격자·기저·Bravais 격자", "Miller 지수·면간 거리", "Bragg 법칙·분말 XRD", "Fourier 해석·역격자·Ewald 작도", "Wigner–Seitz·Brillouin 영역", "구조 인자·소멸 규칙"],
+        color: "#e879f9",
+      },
     ],
   },
   en: {
@@ -191,6 +199,13 @@ const T = {
         topics: ["Planck distribution · phonon heat capacity", "Einstein vs Debye · T³ law", "Metals: C = γT + AT³", "LCAO tight binding · effective mass", "Band filling · metals vs insulators", "Band gaps · Peierls · semiconductors"],
         color: "#f87171",
       },
+      {
+        id: 13,
+        title: "Week 13",
+        subtitle: "Crystal Structure, X-ray Diffraction & Reciprocal Lattice",
+        topics: ["Lattice · basis · Bravais lattices", "Miller indices · interplanar spacing", "Bragg's law · powder XRD", "Fourier analysis · reciprocal lattice · Ewald", "Wigner–Seitz cell · Brillouin zones", "Structure factor · extinction rules"],
+        color: "#e879f9",
+      },
     ],
   },
 };
@@ -206,6 +221,7 @@ const comps = {
   10: Week10App,
   11: Week11App,
   12: Week12App,
+  13: Week13App,
   mid: MidtermReviewApp,
 };
 

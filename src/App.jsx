@@ -22,6 +22,7 @@ import Week13App from "./Week13App";
 import Week14App from "./Week14App";
 import Week15App from "./Week15App";
 import MidtermReviewApp from "./MidtermReviewApp";
+import FinalReviewApp from "./FinalReviewApp";
 
 const T = {
   ko: {
@@ -128,6 +129,13 @@ const T = {
         subtitle: "불안정성이 만드는 패턴과 전극 과정",
         topics: ["활성·억제와 되먹임", "선형 안정성·대각합–행렬식", "Turing 불안정성·실시간 시뮬레이션", "Gray–Scott·Lotka–Volterra·Gierer–Meinhardt", "전기 이중층·Debye 길이", "Butler–Volmer·Tafel·순환 전압전류법"],
         color: "#fde047",
+      },
+      {
+        id: "final",
+        title: "Final Review",
+        subtitle: "기말고사 복습 (9~14주차)",
+        topics: ["주차 지도·자가 점검", "핵심 공식 50개", "개념 퀴즈 24문항", "새 연습문제 12개", "모의 기말고사(100점)·풀이", "상수표·자주 하는 실수"],
+        color: "#60a5fa",
       },
     ],
   },
@@ -236,6 +244,13 @@ const T = {
         topics: ["Activation, inhibition and feedback", "Linear stability · trace–determinant", "Turing instability · live simulation", "Gray–Scott · Lotka–Volterra · Gierer–Meinhardt", "Electrical double layer · Debye length", "Butler–Volmer · Tafel · cyclic voltammetry"],
         color: "#fde047",
       },
+      {
+        id: "final",
+        title: "Final Review",
+        subtitle: "Final Review (Weeks 9–14)",
+        topics: ["Week map · self-check", "50 key formulas", "24-question concept quiz", "12 new practice problems", "100-point mock final · solutions", "Constants · common pitfalls"],
+        color: "#60a5fa",
+      },
     ],
   },
 };
@@ -255,6 +270,7 @@ const comps = {
   14: Week14App,
   15: Week15App,
   mid: MidtermReviewApp,
+  final: FinalReviewApp,
 };
 
 // language persistence (safe if storage is unavailable)

@@ -19,6 +19,7 @@ import Week10App from "./Week10App";
 import Week11App from "./Week11App";
 import Week12App from "./Week12App";
 import Week13App from "./Week13App";
+import Week14App from "./Week14App";
 import MidtermReviewApp from "./MidtermReviewApp";
 
 const T = {
@@ -113,6 +114,13 @@ const T = {
         topics: ["격자·기저·Bravais 격자", "Miller 지수·면간 거리", "Bragg 법칙·분말 XRD", "Fourier 해석·역격자·Ewald 작도", "Wigner–Seitz·Brillouin 영역", "구조 인자·소멸 규칙"],
         color: "#e879f9",
       },
+      {
+        id: 14,
+        title: "Week 14",
+        subtitle: "고체의 결합, 표면 흡착과 불균일 촉매",
+        topics: ["조밀 쌓임·Madelung 상수·격자 에너지", "Hückel에서 띠로·Fermi–Dirac", "충돌 선속·Langmuir 등온선", "BET·Freundlich·Temkin 등온선", "TPD·체류 시간·표면 확산", "LH·ER 메커니즘·Sabatier 화산"],
+        color: "#22d3ee",
+      },
     ],
   },
   en: {
@@ -206,6 +214,13 @@ const T = {
         topics: ["Lattice · basis · Bravais lattices", "Miller indices · interplanar spacing", "Bragg's law · powder XRD", "Fourier analysis · reciprocal lattice · Ewald", "Wigner–Seitz cell · Brillouin zones", "Structure factor · extinction rules"],
         color: "#e879f9",
       },
+      {
+        id: 14,
+        title: "Week 14",
+        subtitle: "Bonding in Solids, Adsorption & Heterogeneous Catalysis",
+        topics: ["Close packing · Madelung constant · lattice energy", "Hückel to bands · Fermi–Dirac", "Collision flux · Langmuir isotherm", "BET · Freundlich · Temkin isotherms", "TPD · residence time · surface diffusion", "LH · ER mechanisms · Sabatier volcano"],
+        color: "#22d3ee",
+      },
     ],
   },
 };
@@ -222,6 +237,7 @@ const comps = {
   11: Week11App,
   12: Week12App,
   13: Week13App,
+  14: Week14App,
   mid: MidtermReviewApp,
 };
 

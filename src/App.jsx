@@ -20,6 +20,7 @@ import Week11App from "./Week11App";
 import Week12App from "./Week12App";
 import Week13App from "./Week13App";
 import Week14App from "./Week14App";
+import Week15App from "./Week15App";
 import MidtermReviewApp from "./MidtermReviewApp";
 
 const T = {
@@ -121,6 +122,13 @@ const T = {
         topics: ["조밀 쌓임·Madelung 상수·격자 에너지", "Hückel에서 띠로·Fermi–Dirac", "충돌 선속·Langmuir 등온선", "BET·Freundlich·Temkin 등온선", "TPD·체류 시간·표면 확산", "LH·ER 메커니즘·Sabatier 화산"],
         color: "#22d3ee",
       },
+      {
+        id: 15,
+        title: "Week 15",
+        subtitle: "불안정성이 만드는 패턴과 전극 과정",
+        topics: ["활성·억제와 되먹임", "선형 안정성·대각합–행렬식", "Turing 불안정성·실시간 시뮬레이션", "Gray–Scott·Lotka–Volterra·Gierer–Meinhardt", "전기 이중층·Debye 길이", "Butler–Volmer·Tafel·순환 전압전류법"],
+        color: "#fde047",
+      },
     ],
   },
   en: {
@@ -221,6 +229,13 @@ const T = {
         topics: ["Close packing · Madelung constant · lattice energy", "Hückel to bands · Fermi–Dirac", "Collision flux · Langmuir isotherm", "BET · Freundlich · Temkin isotherms", "TPD · residence time · surface diffusion", "LH · ER mechanisms · Sabatier volcano"],
         color: "#22d3ee",
       },
+      {
+        id: 15,
+        title: "Week 15",
+        subtitle: "Pattern Formation by Instability & Processes at Electrodes",
+        topics: ["Activation, inhibition and feedback", "Linear stability · trace–determinant", "Turing instability · live simulation", "Gray–Scott · Lotka–Volterra · Gierer–Meinhardt", "Electrical double layer · Debye length", "Butler–Volmer · Tafel · cyclic voltammetry"],
+        color: "#fde047",
+      },
     ],
   },
 };
@@ -238,6 +253,7 @@ const comps = {
   12: Week12App,
   13: Week13App,
   14: Week14App,
+  15: Week15App,
   mid: MidtermReviewApp,
 };
 
